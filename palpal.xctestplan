@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "F60BB26E-8FD5-4B3A-AD11-3C434F085D01",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:palpal.xcodeproj",
+      "identifier" : "506990592B6A6861007C4708",
+      "name" : "palpal"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:palpal.xcodeproj",
+        "identifier" : "506990692B6A6863007C4708",
+        "name" : "palpalTests"
+      }
+    }
+  ],
+  "version" : 1
+}

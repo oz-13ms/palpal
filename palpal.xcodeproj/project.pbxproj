@@ -7,13 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		501A6E682B6FC86C00ED0035 /* LongPressSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A6E672B6FC86C00ED0035 /* LongPressSupport.swift */; };
+		505BB3EC2B6C5F1E009B0EC9 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505BB3EB2B6C5F1E009B0EC9 /* View+Extensions.swift */; };
 		5069905E2B6A6861007C4708 /* palpalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5069905D2B6A6861007C4708 /* palpalApp.swift */; };
-		506990602B6A6861007C4708 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5069905F2B6A6861007C4708 /* ContentView.swift */; };
 		506990622B6A6863007C4708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506990612B6A6863007C4708 /* Assets.xcassets */; };
 		506990652B6A6863007C4708 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506990642B6A6863007C4708 /* Preview Assets.xcassets */; };
-		5069906F2B6A6863007C4708 /* palpalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5069906E2B6A6863007C4708 /* palpalTests.swift */; };
-		506990792B6A6863007C4708 /* palpalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506990782B6A6863007C4708 /* palpalUITests.swift */; };
-		5069907B2B6A6863007C4708 /* palpalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5069907A2B6A6863007C4708 /* palpalUITestsLaunchTests.swift */; };
+		50762AD42B6BCDB000F6B11C /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50762AD32B6BCDB000F6B11C /* Splash.swift */; };
+		50762ADB2B6BDE0700F6B11C /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50762ADA2B6BDE0700F6B11C /* SplashView.swift */; };
+		50A65BE12B6D43220088A0E9 /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A65BE02B6D43220088A0E9 /* TeamModel.swift */; };
+		50A65BE32B6E40CE0088A0E9 /* UserAuthViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A65BE22B6E40CE0088A0E9 /* UserAuthViewTests.swift */; };
+		50A65BE72B6E442A0088A0E9 /* PalListViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A65BE62B6E442A0088A0E9 /* PalListViewTests.swift */; };
+		50A65BE92B6E44350088A0E9 /* PalListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A65BE82B6E44350088A0E9 /* PalListTests.swift */; };
+		50A65BEB2B6E443F0088A0E9 /* PalDetailsViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A65BEA2B6E443F0088A0E9 /* PalDetailsViewTests.swift */; };
+		50A65BED2B6E44480088A0E9 /* PalDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A65BEC2B6E44480088A0E9 /* PalDetailsTests.swift */; };
+		50A65BF12B6E58A70088A0E9 /* PalStatType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A65BF02B6E58A70088A0E9 /* PalStatType.swift */; };
+		50A65BF92B6FAC520088A0E9 /* UserAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A65BF82B6FAC520088A0E9 /* UserAuthTests.swift */; };
+		50DD5A3E2B6A741400B893B4 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 50DD5A3D2B6A741400B893B4 /* ComposableArchitecture */; };
+		50DD5A432B6A759200B893B4 /* Margin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD5A422B6A759200B893B4 /* Margin.swift */; };
+		50DD5A462B6A75DB00B893B4 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD5A452B6A75DB00B893B4 /* CornerRadius.swift */; };
+		50DD5A4A2B6A761700B893B4 /* PalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD5A492B6A761700B893B4 /* PalModel.swift */; };
+		50DD5A4D2B6A765100B893B4 /* PalNatureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD5A4C2B6A765100B893B4 /* PalNatureType.swift */; };
+		50DD5A4F2B6A7B9100B893B4 /* WorkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD5A4E2B6A7B9100B893B4 /* WorkModel.swift */; };
+		50DD5A512B6A7BBF00B893B4 /* WorkSkillType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD5A502B6A7BBF00B893B4 /* WorkSkillType.swift */; };
+		50DD5A532B6A7D7E00B893B4 /* DropModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD5A522B6A7D7E00B893B4 /* DropModel.swift */; };
+		50DD5A572B6A7F9700B893B4 /* PalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD5A562B6A7F9700B893B4 /* PalListView.swift */; };
+		50DD5A592B6A7FA100B893B4 /* PalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD5A582B6A7FA100B893B4 /* PalList.swift */; };
+		50DD5A622B6A857F00B893B4 /* PalDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD5A612B6A857F00B893B4 /* PalDetails.swift */; };
+		50DD5A642B6A861B00B893B4 /* FirebaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD5A632B6A861B00B893B4 /* FirebaseClient.swift */; };
+		50DD5A662B6A870300B893B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50DD5A652B6A870300B893B4 /* GoogleService-Info.plist */; };
+		50DD5A742B6A8CF600B893B4 /* PalDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD5A732B6A8CF600B893B4 /* PalDetailsView.swift */; };
+		50DD5A7B2B6AA24B00B893B4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 50DD5A7A2B6AA24B00B893B4 /* FirebaseAuth */; };
+		50DD5A7D2B6AA24B00B893B4 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 50DD5A7C2B6AA24B00B893B4 /* FirebaseDatabase */; };
+		50DD5A7F2B6AA24B00B893B4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 50DD5A7E2B6AA24B00B893B4 /* FirebaseFirestore */; };
+		50DD5A812B6AACEE00B893B4 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 50DD5A802B6AACEE00B893B4 /* FirebaseFirestoreSwift */; };
+		50DD5A842B6AB4E100B893B4 /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD5A832B6AB4E100B893B4 /* UserAuth.swift */; };
+		50DD5A862B6AB4E700B893B4 /* UserAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD5A852B6AB4E700B893B4 /* UserAuthView.swift */; };
+		DA0BD3572B6D6F9900A492D9 /* InlineSnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = DA0BD3562B6D6F9900A492D9 /* InlineSnapshotTesting */; };
+		DA0BD3592B6D6F9900A492D9 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = DA0BD3582B6D6F9900A492D9 /* SnapshotTesting */; };
+		DA0BD3602B6D72B100A492D9 /* SplashViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0BD35F2B6D72B100A492D9 /* SplashViewTests.swift */; };
+		DA5329092B6D75EF00B75D31 /* SplashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5329082B6D75EF00B75D31 /* SplashTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,26 +56,44 @@
 			remoteGlobalIDString = 506990592B6A6861007C4708;
 			remoteInfo = palpal;
 		};
-		506990752B6A6863007C4708 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 506990522B6A6861007C4708 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 506990592B6A6861007C4708;
-			remoteInfo = palpal;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		501A6E672B6FC86C00ED0035 /* LongPressSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressSupport.swift; sourceTree = "<group>"; };
+		505BB3EB2B6C5F1E009B0EC9 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		5069905A2B6A6861007C4708 /* palpal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = palpal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5069905D2B6A6861007C4708 /* palpalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palpalApp.swift; sourceTree = "<group>"; };
-		5069905F2B6A6861007C4708 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		506990612B6A6863007C4708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		506990642B6A6863007C4708 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5069906A2B6A6863007C4708 /* palpalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = palpalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5069906E2B6A6863007C4708 /* palpalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palpalTests.swift; sourceTree = "<group>"; };
-		506990742B6A6863007C4708 /* palpalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = palpalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		506990782B6A6863007C4708 /* palpalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palpalUITests.swift; sourceTree = "<group>"; };
-		5069907A2B6A6863007C4708 /* palpalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palpalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50762AD32B6BCDB000F6B11C /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		50762ADA2B6BDE0700F6B11C /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		50A65BE02B6D43220088A0E9 /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
+		50A65BE22B6E40CE0088A0E9 /* UserAuthViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthViewTests.swift; sourceTree = "<group>"; };
+		50A65BE62B6E442A0088A0E9 /* PalListViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalListViewTests.swift; sourceTree = "<group>"; };
+		50A65BE82B6E44350088A0E9 /* PalListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalListTests.swift; sourceTree = "<group>"; };
+		50A65BEA2B6E443F0088A0E9 /* PalDetailsViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalDetailsViewTests.swift; sourceTree = "<group>"; };
+		50A65BEC2B6E44480088A0E9 /* PalDetailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalDetailsTests.swift; sourceTree = "<group>"; };
+		50A65BF02B6E58A70088A0E9 /* PalStatType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalStatType.swift; sourceTree = "<group>"; };
+		50A65BF82B6FAC520088A0E9 /* UserAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthTests.swift; sourceTree = "<group>"; };
+		50DD5A422B6A759200B893B4 /* Margin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Margin.swift; sourceTree = "<group>"; };
+		50DD5A452B6A75DB00B893B4 /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
+		50DD5A492B6A761700B893B4 /* PalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalModel.swift; sourceTree = "<group>"; };
+		50DD5A4C2B6A765100B893B4 /* PalNatureType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalNatureType.swift; sourceTree = "<group>"; };
+		50DD5A4E2B6A7B9100B893B4 /* WorkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkModel.swift; sourceTree = "<group>"; };
+		50DD5A502B6A7BBF00B893B4 /* WorkSkillType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkSkillType.swift; sourceTree = "<group>"; };
+		50DD5A522B6A7D7E00B893B4 /* DropModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropModel.swift; sourceTree = "<group>"; };
+		50DD5A562B6A7F9700B893B4 /* PalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalListView.swift; sourceTree = "<group>"; };
+		50DD5A582B6A7FA100B893B4 /* PalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalList.swift; sourceTree = "<group>"; };
+		50DD5A612B6A857F00B893B4 /* PalDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalDetails.swift; sourceTree = "<group>"; };
+		50DD5A632B6A861B00B893B4 /* FirebaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseClient.swift; sourceTree = "<group>"; };
+		50DD5A652B6A870300B893B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		50DD5A732B6A8CF600B893B4 /* PalDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalDetailsView.swift; sourceTree = "<group>"; };
+		50DD5A832B6AB4E100B893B4 /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
+		50DD5A852B6AB4E700B893B4 /* UserAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthView.swift; sourceTree = "<group>"; };
+		DA0BD35F2B6D72B100A492D9 /* SplashViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewTests.swift; sourceTree = "<group>"; };
+		DA0BD3622B6D757900A492D9 /* palpal.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = palpal.xctestplan; sourceTree = "<group>"; };
+		DA5329082B6D75EF00B75D31 /* SplashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +101,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50DD5A812B6AACEE00B893B4 /* FirebaseFirestoreSwift in Frameworks */,
+				50DD5A7D2B6AA24B00B893B4 /* FirebaseDatabase in Frameworks */,
+				50DD5A7F2B6AA24B00B893B4 /* FirebaseFirestore in Frameworks */,
+				50DD5A3E2B6A741400B893B4 /* ComposableArchitecture in Frameworks */,
+				50DD5A7B2B6AA24B00B893B4 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,26 +113,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		506990712B6A6863007C4708 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DA0BD3572B6D6F9900A492D9 /* InlineSnapshotTesting in Frameworks */,
+				DA0BD3592B6D6F9900A492D9 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		501A6E662B6FC86200ED0035 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				501A6E672B6FC86C00ED0035 /* LongPressSupport.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		505BB3EA2B6C5F11009B0EC9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				505BB3EB2B6C5F1E009B0EC9 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		506990512B6A6861007C4708 = {
 			isa = PBXGroup;
 			children = (
+				DA0BD3622B6D757900A492D9 /* palpal.xctestplan */,
 				5069905C2B6A6861007C4708 /* palpal */,
 				5069906D2B6A6863007C4708 /* palpalTests */,
-				506990772B6A6863007C4708 /* palpalUITests */,
 				5069905B2B6A6861007C4708 /* Products */,
+				50DD5A792B6AA23C00B893B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,7 +153,6 @@
 			children = (
 				5069905A2B6A6861007C4708 /* palpal.app */,
 				5069906A2B6A6863007C4708 /* palpalTests.xctest */,
-				506990742B6A6863007C4708 /* palpalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,9 +160,11 @@
 		5069905C2B6A6861007C4708 /* palpal */ = {
 			isa = PBXGroup;
 			children = (
+				DA0BD3532B6D659000A492D9 /* Utils */,
+				50DD5A3F2B6A750800B893B4 /* Features */,
 				5069905D2B6A6861007C4708 /* palpalApp.swift */,
-				5069905F2B6A6861007C4708 /* ContentView.swift */,
 				506990612B6A6863007C4708 /* Assets.xcassets */,
+				50DD5A652B6A870300B893B4 /* GoogleService-Info.plist */,
 				506990632B6A6863007C4708 /* Preview Content */,
 			);
 			path = palpal;
@@ -113,18 +181,161 @@
 		5069906D2B6A6863007C4708 /* palpalTests */ = {
 			isa = PBXGroup;
 			children = (
-				5069906E2B6A6863007C4708 /* palpalTests.swift */,
+				DA0BD35A2B6D726700A492D9 /* Features */,
 			);
 			path = palpalTests;
 			sourceTree = "<group>";
 		};
-		506990772B6A6863007C4708 /* palpalUITests */ = {
+		50762AD52B6BCDB500F6B11C /* Splash */ = {
 			isa = PBXGroup;
 			children = (
-				506990782B6A6863007C4708 /* palpalUITests.swift */,
-				5069907A2B6A6863007C4708 /* palpalUITestsLaunchTests.swift */,
+				50762AD32B6BCDB000F6B11C /* Splash.swift */,
+				50762ADA2B6BDE0700F6B11C /* SplashView.swift */,
 			);
-			path = palpalUITests;
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		50DD5A3F2B6A750800B893B4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				50762AD52B6BCDB500F6B11C /* Splash */,
+				50DD5A822B6AB4D600B893B4 /* UserAuth */,
+				50DD5A5D2B6A856500B893B4 /* PalDetails */,
+				50DD5A552B6A7F4900B893B4 /* PalList */,
+				50DD5A402B6A752000B893B4 /* Common */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		50DD5A402B6A752000B893B4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				501A6E662B6FC86200ED0035 /* Util */,
+				505BB3EA2B6C5F11009B0EC9 /* Extensions */,
+				50DD5A4B2B6A764900B893B4 /* Enums */,
+				50DD5A472B6A760800B893B4 /* Models */,
+				50DD5A412B6A757C00B893B4 /* Constants */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		50DD5A412B6A757C00B893B4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				50DD5A422B6A759200B893B4 /* Margin.swift */,
+				50DD5A452B6A75DB00B893B4 /* CornerRadius.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		50DD5A472B6A760800B893B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50DD5A492B6A761700B893B4 /* PalModel.swift */,
+				50DD5A4E2B6A7B9100B893B4 /* WorkModel.swift */,
+				50DD5A522B6A7D7E00B893B4 /* DropModel.swift */,
+				50A65BE02B6D43220088A0E9 /* TeamModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50DD5A4B2B6A764900B893B4 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				50DD5A4C2B6A765100B893B4 /* PalNatureType.swift */,
+				50DD5A502B6A7BBF00B893B4 /* WorkSkillType.swift */,
+				50A65BF02B6E58A70088A0E9 /* PalStatType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		50DD5A552B6A7F4900B893B4 /* PalList */ = {
+			isa = PBXGroup;
+			children = (
+				50DD5A582B6A7FA100B893B4 /* PalList.swift */,
+				50DD5A562B6A7F9700B893B4 /* PalListView.swift */,
+			);
+			path = PalList;
+			sourceTree = "<group>";
+		};
+		50DD5A5D2B6A856500B893B4 /* PalDetails */ = {
+			isa = PBXGroup;
+			children = (
+				50DD5A612B6A857F00B893B4 /* PalDetails.swift */,
+				50DD5A732B6A8CF600B893B4 /* PalDetailsView.swift */,
+			);
+			path = PalDetails;
+			sourceTree = "<group>";
+		};
+		50DD5A792B6AA23C00B893B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50DD5A822B6AB4D600B893B4 /* UserAuth */ = {
+			isa = PBXGroup;
+			children = (
+				50DD5A832B6AB4E100B893B4 /* UserAuth.swift */,
+				50DD5A852B6AB4E700B893B4 /* UserAuthView.swift */,
+			);
+			path = UserAuth;
+			sourceTree = "<group>";
+		};
+		DA0BD3532B6D659000A492D9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				50DD5A632B6A861B00B893B4 /* FirebaseClient.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DA0BD35A2B6D726700A492D9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				DA0BD35E2B6D728100A492D9 /* PalList */,
+				DA0BD35D2B6D727C00A492D9 /* PalDetails */,
+				DA0BD35C2B6D727700A492D9 /* UserAuth */,
+				DA0BD35B2B6D727200A492D9 /* Splash */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		DA0BD35B2B6D727200A492D9 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				DA0BD35F2B6D72B100A492D9 /* SplashViewTests.swift */,
+				DA5329082B6D75EF00B75D31 /* SplashTests.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		DA0BD35C2B6D727700A492D9 /* UserAuth */ = {
+			isa = PBXGroup;
+			children = (
+				50A65BE22B6E40CE0088A0E9 /* UserAuthViewTests.swift */,
+				50A65BF82B6FAC520088A0E9 /* UserAuthTests.swift */,
+			);
+			path = UserAuth;
+			sourceTree = "<group>";
+		};
+		DA0BD35D2B6D727C00A492D9 /* PalDetails */ = {
+			isa = PBXGroup;
+			children = (
+				50A65BEA2B6E443F0088A0E9 /* PalDetailsViewTests.swift */,
+				50A65BEC2B6E44480088A0E9 /* PalDetailsTests.swift */,
+			);
+			path = PalDetails;
+			sourceTree = "<group>";
+		};
+		DA0BD35E2B6D728100A492D9 /* PalList */ = {
+			isa = PBXGroup;
+			children = (
+				50A65BE62B6E442A0088A0E9 /* PalListViewTests.swift */,
+				50A65BE82B6E44350088A0E9 /* PalListTests.swift */,
+			);
+			path = PalList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +354,13 @@
 			dependencies = (
 			);
 			name = palpal;
+			packageProductDependencies = (
+				50DD5A3D2B6A741400B893B4 /* ComposableArchitecture */,
+				50DD5A7A2B6AA24B00B893B4 /* FirebaseAuth */,
+				50DD5A7C2B6AA24B00B893B4 /* FirebaseDatabase */,
+				50DD5A7E2B6AA24B00B893B4 /* FirebaseFirestore */,
+				50DD5A802B6AACEE00B893B4 /* FirebaseFirestoreSwift */,
+			);
 			productName = palpal;
 			productReference = 5069905A2B6A6861007C4708 /* palpal.app */;
 			productType = "com.apple.product-type.application";
@@ -161,27 +379,13 @@
 				5069906C2B6A6863007C4708 /* PBXTargetDependency */,
 			);
 			name = palpalTests;
+			packageProductDependencies = (
+				DA0BD3562B6D6F9900A492D9 /* InlineSnapshotTesting */,
+				DA0BD3582B6D6F9900A492D9 /* SnapshotTesting */,
+			);
 			productName = palpalTests;
 			productReference = 5069906A2B6A6863007C4708 /* palpalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		506990732B6A6863007C4708 /* palpalUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 506990842B6A6863007C4708 /* Build configuration list for PBXNativeTarget "palpalUITests" */;
-			buildPhases = (
-				506990702B6A6863007C4708 /* Sources */,
-				506990712B6A6863007C4708 /* Frameworks */,
-				506990722B6A6863007C4708 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				506990762B6A6863007C4708 /* PBXTargetDependency */,
-			);
-			name = palpalUITests;
-			productName = palpalUITests;
-			productReference = 506990742B6A6863007C4708 /* palpalUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,10 +404,6 @@
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = 506990592B6A6861007C4708;
 					};
-					506990732B6A6863007C4708 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 506990592B6A6861007C4708;
-					};
 				};
 			};
 			buildConfigurationList = 506990552B6A6861007C4708 /* Build configuration list for PBXProject "palpal" */;
@@ -215,13 +415,17 @@
 				Base,
 			);
 			mainGroup = 506990512B6A6861007C4708;
+			packageReferences = (
+				50DD5A3C2B6A741400B893B4 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				50DD5A722B6A888700B893B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				DA0BD3552B6D6F9900A492D9 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = 5069905B2B6A6861007C4708 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				506990592B6A6861007C4708 /* palpal */,
 				506990692B6A6863007C4708 /* palpalTests */,
-				506990732B6A6863007C4708 /* palpalUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,19 +435,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50DD5A662B6A870300B893B4 /* GoogleService-Info.plist in Resources */,
 				506990652B6A6863007C4708 /* Preview Assets.xcassets in Resources */,
 				506990622B6A6863007C4708 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		506990682B6A6863007C4708 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		506990722B6A6863007C4708 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,8 +455,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				506990602B6A6861007C4708 /* ContentView.swift in Sources */,
+				50DD5A572B6A7F9700B893B4 /* PalListView.swift in Sources */,
+				50DD5A4F2B6A7B9100B893B4 /* WorkModel.swift in Sources */,
+				50DD5A592B6A7FA100B893B4 /* PalList.swift in Sources */,
+				50DD5A742B6A8CF600B893B4 /* PalDetailsView.swift in Sources */,
+				50DD5A622B6A857F00B893B4 /* PalDetails.swift in Sources */,
+				50DD5A532B6A7D7E00B893B4 /* DropModel.swift in Sources */,
+				50DD5A842B6AB4E100B893B4 /* UserAuth.swift in Sources */,
+				50DD5A862B6AB4E700B893B4 /* UserAuthView.swift in Sources */,
+				50A65BF12B6E58A70088A0E9 /* PalStatType.swift in Sources */,
+				50DD5A512B6A7BBF00B893B4 /* WorkSkillType.swift in Sources */,
+				50DD5A4A2B6A761700B893B4 /* PalModel.swift in Sources */,
+				505BB3EC2B6C5F1E009B0EC9 /* View+Extensions.swift in Sources */,
+				50DD5A4D2B6A765100B893B4 /* PalNatureType.swift in Sources */,
+				50762AD42B6BCDB000F6B11C /* Splash.swift in Sources */,
+				501A6E682B6FC86C00ED0035 /* LongPressSupport.swift in Sources */,
+				50762ADB2B6BDE0700F6B11C /* SplashView.swift in Sources */,
 				5069905E2B6A6861007C4708 /* palpalApp.swift in Sources */,
+				50A65BE12B6D43220088A0E9 /* TeamModel.swift in Sources */,
+				50DD5A642B6A861B00B893B4 /* FirebaseClient.swift in Sources */,
+				50DD5A462B6A75DB00B893B4 /* CornerRadius.swift in Sources */,
+				50DD5A432B6A759200B893B4 /* Margin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,16 +483,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5069906F2B6A6863007C4708 /* palpalTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		506990702B6A6863007C4708 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5069907B2B6A6863007C4708 /* palpalUITestsLaunchTests.swift in Sources */,
-				506990792B6A6863007C4708 /* palpalUITests.swift in Sources */,
+				50A65BE32B6E40CE0088A0E9 /* UserAuthViewTests.swift in Sources */,
+				DA5329092B6D75EF00B75D31 /* SplashTests.swift in Sources */,
+				50A65BF92B6FAC520088A0E9 /* UserAuthTests.swift in Sources */,
+				DA0BD3602B6D72B100A492D9 /* SplashViewTests.swift in Sources */,
+				50A65BEB2B6E443F0088A0E9 /* PalDetailsViewTests.swift in Sources */,
+				50A65BE72B6E442A0088A0E9 /* PalListViewTests.swift in Sources */,
+				50A65BED2B6E44480088A0E9 /* PalDetailsTests.swift in Sources */,
+				50A65BE92B6E44350088A0E9 /* PalListTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +501,6 @@
 			isa = PBXTargetDependency;
 			target = 506990592B6A6861007C4708 /* palpal */;
 			targetProxy = 5069906B2B6A6863007C4708 /* PBXContainerItemProxy */;
-		};
-		506990762B6A6863007C4708 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 506990592B6A6861007C4708 /* palpal */;
-			targetProxy = 506990752B6A6863007C4708 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -428,8 +638,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,9 +647,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tokarczykadam.palpal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,8 +671,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,9 +680,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tokarczykadam.palpal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -512,42 +730,6 @@
 			};
 			name = Release;
 		};
-		506990852B6A6863007C4708 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4HYR9945JC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tokarczykadam.palpalUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = palpal;
-			};
-			name = Debug;
-		};
-		506990862B6A6863007C4708 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4HYR9945JC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tokarczykadam.palpalUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = palpal;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -578,16 +760,72 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		506990842B6A6863007C4708 /* Build configuration list for PBXNativeTarget "palpalUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				506990852B6A6863007C4708 /* Debug */,
-				506990862B6A6863007C4708 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		50DD5A3C2B6A741400B893B4 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.1;
+			};
+		};
+		50DD5A722B6A888700B893B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+		DA0BD3552B6D6F9900A492D9 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.15.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		50DD5A3D2B6A741400B893B4 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50DD5A3C2B6A741400B893B4 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		50DD5A7A2B6AA24B00B893B4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50DD5A722B6A888700B893B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		50DD5A7C2B6AA24B00B893B4 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50DD5A722B6A888700B893B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		50DD5A7E2B6AA24B00B893B4 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50DD5A722B6A888700B893B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		50DD5A802B6AACEE00B893B4 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50DD5A722B6A888700B893B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		DA0BD3562B6D6F9900A492D9 /* InlineSnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA0BD3552B6D6F9900A492D9 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = InlineSnapshotTesting;
+		};
+		DA0BD3582B6D6F9900A492D9 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA0BD3552B6D6F9900A492D9 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 506990522B6A6861007C4708 /* Project object */;
 }
