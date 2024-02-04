@@ -27,7 +27,9 @@ struct palpalApp: App {
 
     var body: some Scene {
         WindowGroup {
-            SplashView(store: .init(initialState: Splash.State(), reducer: { Splash() }))
+            if !_XCTIsTesting {
+                SplashView(store: .init(initialState: Splash.State(), reducer: { Splash() }))
+            }
         }
     }
 }
